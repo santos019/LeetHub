@@ -23,3 +23,7 @@
 	<li><code>-100 &lt;= matrix[i][j] &lt;= 100</code></li>
 </ul>
 </div>
+<div>
+	![image](https://github.com/santos019/LeetHub/assets/85140461/2479a61d-ea26-4558-b10f-e495c8ecdbc8)
+
+</div>

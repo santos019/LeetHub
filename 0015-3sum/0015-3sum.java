@@ -12,6 +12,7 @@ class Solution {
             fix = i;
             left  = i + 1;
             right = nums.length - 1;
+            if(fix != 0 && nums[fix] == nums[fix - 1]) continue;
             while(right > left && fix < left) {
                 if(nums[fix] + nums[right] + nums[left] > 0) {
                     right --;

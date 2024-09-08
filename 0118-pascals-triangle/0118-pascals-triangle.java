@@ -7,9 +7,9 @@ class Solution {
         List<Integer> tmp = new ArrayList<>();
         tmp.add(1);
         for(int j = 1; j < i; j ++) {
-            int value = dp.get(i-1).get(j - 1);
-            int value2 = dp.get(i-1).get(j);
-            tmp.add(value + value2);
+            int frist = dp.get(i-1).get(j - 1);
+            int second = dp.get(i-1).get(j);
+            tmp.add(frist + second);
         }
         tmp.add(1);
         dp.add(tmp);

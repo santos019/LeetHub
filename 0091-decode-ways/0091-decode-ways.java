@@ -3,6 +3,7 @@ class Solution {
         int len = s.length();
         if(len == 0 || s.charAt(0) == '0') return 0;
         if(len == 1) return 1;
+        
         int[] dp = new int[len + 1];
 
         dp[0] = 1;
